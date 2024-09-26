@@ -1,0 +1,10 @@
+export { default as Login } from "./Login/Login";
+export { default as NotFound } from "./NotFound/NotFound";
+export { default as Register } from "./Register/Register";
+export { default as Error } from "./Error/Error";
+export { default as Dashboard } from "./Admin/Dashboard/Dashboard";
+export { default as Department } from "./Admin/Department/Department";
+export { default as Rooms } from "./Admin/Rooms/Rooms";
+export { default as Spec } from "./Admin/Spec/Spec";
+export { default as Position } from "./Admin/Position/Position";
+export { default as Doctor } from "./Admin/Doctor/Doctor";

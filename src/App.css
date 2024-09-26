@@ -1,0 +1,31 @@
+.sidebar {
+  transition: 0.3s;
+  left: 0 !important;
+  @media screen and (max-width: 1245px) {
+    left: -100% !important;
+  }
+  svg {
+    font-size: 20px;
+  }
+  path {
+    fill: #ffffff !important;
+  }
+}
+.toggle-sidebar {
+  left: 0 !important;
+  transition: 0.3s;
+  @media screen and (min-width: 1245px) {
+    left: -100% !important;
+  }
+}
+.layout {
+  transition: 0.3s;
+  width: calc(100% - 300px) !important;
+  @media screen and (max-width: 1245px) {
+    width: 100% !important;
+  }
+}
+.toggle {
+  transition: 0.3s;
+  width: 100% !important;
+}
